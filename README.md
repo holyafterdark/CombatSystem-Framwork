@@ -14,7 +14,7 @@ how it works
 
 client predicts the hit locally (animation, sound, effect) and fires a remote with a hitId, claimed origin, timestamp, and target userId. server re-resolves the target, checks distance/facing/timestamp drift/dedup, then either confirms or rejects via HitFeedback. rejected hits get cleaned up client-side.
 
-block works as a toggle with a max-hit counter — absorbs up to BlockMaxHits hits then breaks with knockback.
+block works as a toggle with a max-hit counter absorbs up to BlockMaxHits hits then breaks with knockback.
 
 notes
 
